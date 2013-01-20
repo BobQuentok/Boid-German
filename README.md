@@ -1,4 +1,5 @@
 Boid
 ====
-
-The German translation for the "Boid for Twitter" Android App
+English
+==
+The German translation for the awesome "Boid for Twitter" Android App
