@@ -112,8 +112,7 @@
 	<string name="help_title">Hilfe</string>
 	<string name="help_description">Teile dein Feedback mit, spende Etwas, und sehe die Versions- bzw. Build-Informationen an.</string>
 	<string name="about_title">Über</string>
-	<string name="about_description">Erstellt von Aidan Follestad, Joe Simpson, Graham
-		Macphee, Philip Oakley, und Federico Zubani.</string>
+	<string name="about_description">Erstellt von Aidan Follestad, Joe Simpson, Graham Macphee, Philip Oakley, und Federico Zubani.</string>
 	<string name="version_title">Version</string>
 	<string name="build_title">Build-Nummer</string>
 	<string name="sendfeedback_title">Feedback</string>
