@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Boid Beta</string>
+	<string name="no_accounts">Keine Konten vorhanden. Bitte eins hinzufügen!</string>
+	<string name="account_service_name">Boid-Kontendienst</string>
+	<string name="account_service_desc">Übernimmt das Laden, Hinzufügen, Aufrechterhalten und Entfernen deiner Konten. Mit Beenden dieses Dienstes wird Boid deaktiviert.</string>
+	<string name="message_recv">{user} hat dir eine Direktnachricht gesendet</string>
+	<string name="messaging_str">Nachrichten</string>
+	<string name="failed_check_relationship">Erhalten deiner Verbindung mit {user} fehlgeschlagen!</string>
+	<string name="google_url">https://www.google.com/search?q=</string>
+	<string name="nearby_str">In der Nähe</string>
+	<string name="no_camera_app">Oh, oh! Du hast keine Kamera-Apps!</string>
+	<string name="manual_refresh_hint">Aktualisieren zum Laden betätigen</string>
+	<string name="share_boid_title">Boid teilen</string>
+	<string name="share_boid_desc">Hilf dabei, Boid zu verbreiten, indem du es mit deinen Freunden, Familie und deinen Mitarbeitern teilst!</string>
+	<string name="share_boid_content">Schau dir Boid für Twitter an!
+		https://play.google.com/store/apps/details?id=com.teamboid.twitter
+	</string>
+	<string name="confirm_retweet">Diesen Status als @{account} retweeten?</string>
+	<string name="draft_str">Entwurf</string>
+	<string name="draft_prompt">Soll dieser Tweet als Entwurf gespeichert werden?</string>
+	<string name="always_attach_loc">Standort immer anhängen</string>
+	<string name="always_attach_loc_desc">Fügt deinen Tweets standardmäßig deinen aktuellen Standort an.
+	</string>
+	<string name="display_real_name">Richtige Namen anzeigen</string>
+	<string name="display_real_name_desc">Zeigt in Feeds den richtigen Namen des Benutzers anstelle seines Benutzernamens an.</string>
+	<string name="mention_notify_desc">Du erhälst Benachrichtigungen über neue Erwähnungen, wenn diese Funktion aktiviert ist.	</string>
+	<string name="messages_notify_desc">Du erhälst Benachrichtigungen über neue Direktnachrichten, wenn diese Funktion aktiviert ist.</string>
+	<string name="vibrate_str">Vibration</string>
+	<string name="vibrate_str_desc">Dein Telefon virbiert bei neuen Benachrichtigungen, wenn diese Funktion aktiviert ist.</string>
+	<string name="ringtone_str">Klingelton</string>
+	<string name="ringtone_str_desc">Der optionale Klingelton wird bei neuen Benachrichtigungen abgespielt.</string>
+	<string name="muting_hint_keyword">Schlagwort oder Hashtag</string>
+	<string name="muting_hint_app">App-Name</string>
+	<string name="muting_hint_user">Benutzername</string>
+	<string name="yes_str">Ja</string>
+	<string name="no_str">Nein</string>
+	<string name="links_shortened">Links werden gekürzt, wenn der Tweet abgesendet wird.</string>
+	<string name="will_use_twitlonger">TwitLonger wird verwendet werden; Medien sind deaktiviert.</string>
+	<string name="expanding_twitlonger">TwitLonger-Beitrag wird erweitert...</string>
+	<string name="expanding_twtmore">Twtmore-Beitrag wird erweitert...</string>
+	<string name="failed_expand_twitlonger">Etwas ist während des Erweiterns dieses TwitLonger-Beitrages schiefgelaufen!</string>
+	<string name="failed_expand_twtmore">Etwas ist während des Erweiterns dieses Twtmore-Beitrages schiefgelaufen!</string>
+	<string name="copied_str">Tweet von \@{user}\ wurde in deiner Zwischenablage gespeichert!</string>
+	<string name="clipboard_str">In deiner Zwischenablage gespeichert!</string>
+	<string name="successfully_deleted_status">Dein Tweet wurde gelöscht!</string>
+	<string name="failed_delete_status">Etwas ist während des Löschens deines Tweets schiefgelaufen!
+	</string>
+	<string name="tweets_str">Tweets</string>
+	<string name="users_str">Benutzer</string>
+	<string name="about_str">Über</string>
+	<string name="no_tweets">Keine Tweets</string>
+	<string name="no_mentions">Keine Erwähnungen</string>
+	<string name="no_messages">Keine Nachrichten</string>
+	<string name="no_trends">Keine Trends</string>
+	<string name="no_favorites">Keine Favoriten</string>
+	<string name="no_results">Keine Ergebnisse</string>
+	<string name="no_media">Keine Medien</string>
+	<string name="nodescription_str">(Keine Beschreibung)</string>
+	<string name="no_internet">Bitte verbinde dich mit dem Internet.</string>
+	<string name="error_str">Fehler</string>
+	<string name="block_str">Blockieren</string>
+	<string name="website_str">Webseite</string>
+	<string name="friends_str">Folgt</string>
+	<string name="followers_str">Folgende</string>
+	<string name="location_str">Standort</string>
+	<string name="directmessage_str">Direktnachricht</string>
+	<string name="report_str">Melden</string>
+	<string name="retweeted_status">Tweet von @{user} erfolgreich retweetet!</string>
+	<string name="failed_retweet">Etwas ist während des Retweetens des Tweets von @{user} schiefgelaufen!</string>
+	<string name="failed_favorite">Etwas ist während des Favorisierens des Tweets von @{user} schiefgelaufen!</string>
+	<string name="failed_unfavorite">Etwas ist während des Entfavorisierens des Tweets von @{user} schiefgelaufen!</string>
+	<string name="edit_profile_str">Profil bearbeiten</string>
+	<string name="pin_column_str">Als Spalte festlegen</string>
+	<string name="in_reply_to">Anwort auf @{user}</string>
+	<string name="search_query_hint_str">Twitter durchsuchen</string>
+	<string name="what_you_wanna_say">Was geht ab?</string>
+	<string name="loading_lists">Bitte warte, während deine Listen geladen werden...</string>
+	<string name="loading_savedsearches">Bitte warte, während deine gespeicherten Suchen geladen werden..</string>
+	<string name="savedsearch_uploaded">Gespeicherte Suche wurde erfolgreich in Twitter gespeichert!</string>
+	<string name="savedsearch_upload_error">Etwas ist während des Speicherns deiner gespeicherten Suche auf Twitter schiefgelaufen!</string>
+	<string name="no_lists">Du hast keine Listen!</string>
+	<string name="failed_load_lists">Etwas ist während des Ladens deiner Listen schiefgelaufen!</string>
+	<string name="lists_str">Listen</string>
+	<string name="switch_accounts">Benutzerkonten wechselns</string>
+	<string name="account_already_added">Du hast dieses Benutzerkonto bereits hinzugefügt!</string>
+	<string name="authorization_error">Autorisieren deines Benutzerkontos fehlgeschlagen!</string>
+	<string name="failed_load_account">Laden eines Benutzerkontos fehlgeschlagen!</string>
+	<string name="failed_load_tweet">Etwas ist während des Ladens dieses Tweets schiefgelaufen!</string>
+	<string name="new_tweet_str">Neuer Tweet</string>
+	<string name="favorite_str">Favorisieren</string>
+	<string name="unfavorite_str">Entfavorisieren</string>
+	<string name="retweet_str">Retweeten</string>
+	<string name="quote_str">Zitieren</string>
+	<string name="reply_str">Antworten</string>
+	<string name="share_str">Teilen</string>
+	<string name="copy_str">Kopieren</string>
+	<string name="search_str">Suchen</string>
+	<string name="manage_accounts_str">Benutzerkonten</string>
+	<string name="manage_accounts_str_desc">Füge deine Twitter-Konten hinzu oder entferne welche, und greife auf die Benachrichtigungs-Einstellungen zu.</string>
+	<string name="remove_account">Benutzerkonto entfernen</string>
+	<string name="confirm_remove_account">Soll das Benutzerkonto von @{account} entfernt werden?</string>
+	<string name="my_profile_str">Mein Profil</string>
+	<string name="settings_str">Einstellungen</string>
+	<string name="addcolumn_str">Spalte hinzufügen</string>
+	<string name="add_account_str">Benutzerkonto hinzufügen</string>
+	<string name="muting_str">Stummschalten</string>
+	<string name="muting_str_desc">Füge Timeline-Stummschaltregeln hinzu oder entferne welche, um Tweets zu filtern.</string>
+	<string name="no_muting_str">Keine Regeln</string>
+	<string name="refresh_str">Aktualisieren</string>
+	<string name="delete_str">Löschen</string>
+	<string name="help_title">Hilfe</string>
+	<string name="help_description">Teile dein Feedback mit, spende Etwas, und sehe die Versions- bzw. Build-Informationen an.</string>
+	<string name="about_title">Über</string>
+	<string name="about_description">Erstellt von Aidan Follestad, Joe Simpson, Graham
+		Macphee, Philip Oakley, und Federico Zubani.</string>
+	<string name="version_title">Version</string>
+	<string name="build_title">Build-Nummer</string>
+	<string name="sendfeedback_title">Feedback</string>
+	<string name="sendfeedback_description">Sende deine Fragen, Feature-Anfragen und Fehlermeldungen an Team Boid.</string>
+	<string name="general_title">Allgemein</string>
+	<string name="general_description">Häufige Einstellungen zum Anpassen der Funktionalität.</string>
+	<string name="enable_ssl_title">SSL</string>
+	<string name="enable_ssl_description">Erlaubt es Boid eine sicherere, aber langsamere Verbindung mit Twitter herzustellen</string>
+	<string name="iconic_tabs_title">Icon-Tabs</string>
+	<string name="iconic_tabs_description">Standardmäßig aktiviert. Zeigt Text anstatt Icons auf den Reitern der Spalten an, wenn diese Funktion deaktiviert wird.</string>
+	<string name="theme_title">Thema</string>
+	<string name="theme_description">Das Thema von Boid. Verändert Text- und UI-Farben.</string>
+	<string name="media_title">Medien</string>
+	<string name="profile_picture_header">Profilbilder</string>
+	<string name="enable_download">Herunterladen aktivieren</string>
+	<string name="tweet_media_header">Tweet-Medien</string>
+	<string name="enable_profilepic_download_desc">Erlaubt es Boid, Profilbilder während dem Ansehen von Profilen und Tweets herunterzuladen.</string>
+	<string name="enable_media_download_desc">Erlaubt es Boid, die in Tweets befindlichen Medien während dem Ansehen von Tweets herunterzuladen.</string>
+	<string name="enable_drafts_title">Entwürfe</string>
+	<string name="enable_drafts_desc">Zeigt dir eine Eingabeaufforderung, ob ein nicht gesendeter Tweet als Entwurf gespeichert werden soll.</string>
+	<string name="clear_searchhistory_title">Suchverlauf löschen</string>
+	<string name="clear_searchhistory_desc">Löscht deinen Suchverlauf, auf den in Suche der Timeline zugegriffen werden kann.</string>
+	<string name="appearance_category">Erscheinungsbild</string>
+	<string name="appearance_category_desc">Themen, Schriftgröße, und weitere UI-Einstellungen.</string>
+	<string name="enable_textual_list_title">Textuelle Listen</string>
+	<string name="enable_textual_list_desc">Listen-Spalten zeigen ihren Namen an, auch wenn Icon-Tabs aktiviert sind.</string>
+	<string name="enable_textual_search_title">Textuelle gespeicherte Suchen</string>
+	<string name="enable_textual_search_desc">Gespeicherte Suchen-Spalten zeigen ihre Warteschlange an, auch wenn Icon-Tabs aktiviert sind.</string>
+	<string name="enable_textual_profilefeed_title">Textuelle Profilfeeds</string>
+	<string name="enable_textual_profilefeed_desc">Profilfeed-Spalten zeigen ihre Benutzernamen an, auch wenn Icon-Tabs aktiviert sind.
+	</string>
+	<string name="enable_inline_title">Inline-Vorschau</string>
+	<string name="enable_inline_desc">Erlaubt es Boid, Bilder und andere Medien direkt in Tweets und Timelines anzuzeigen.</string>
+	<string name="capture_str">Bild aufnehmen</string>
+	<string name="attach_image">Bild anhängen</string>
+	<string name="attach_location">Standort anhängen</string>
+	<string name="tweet_str">Tweeten</string>
+	<string name="send_str">Senden</string>
+	<string name="failed_send_message">Etwas ist während des Sendens deiner Nachricht schiefgelaufen!</string>
+	<string name="sent_tweet">Dein Tweet wurde gesendet!</string>
+	<string name="timeline_str">Timeline</string>
+	<string name="media_timeline_str">Medien-Timeline</string>
+	<string name="mention_str">Erwähnung</string>
+	<string name="mentions_str">Erwähnungen</string>
+	<string name="messages_str">Nachrichten</string>
+	<string name="trends_str">Trends</string>
+	<string name="favorites_str">Favoriten</string>
+	<string name="savedsearch_str">Gespeicherte Suche</string>
+	<string name="list_timeline_str">Listen-Timeline</string>
+	<string name="user_timeline_str">Benutzer-Timeline</string>
+	<string name="load_widget">{widget} wird geladen...</string>
+	<string name="youtube_embed">Eingebettetes YouTube-Video</string>
+	<string name="error_in_widget">Es gab ein Problem beim Laden des {widget}</string>
+	<string name="user_followers">Folgende von {user}</string>
+	<string name="user_following">{user} folgt</string>
+	<string name="user_favorites">Favoriten von {user}</string>
+	<string name="sending_tweet">Tweet wird gesendet...</string>
+	<string name="sending_tweets">{sending} Tweets werden gesendet...</string>
+	<string name="send_error_tweets">{sending} Tweets werden gesendet. Einige wurden nicht gesendet</string>
+
+	<string-array name="theme_names">
+		<item>Dunkel</item>
+		<item>Hell</item>
+		<item>Hell und dunkel</item>
+		<item>Pures Schwarz</item>
+	</string-array>
+	<string-array name="theme_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="nearby_distances">
+		<item>Im Umkreis von 1km</item>
+		<item>Im Umkreis von 5km</item>
+		<item>Im Umkreis von 10km</item>
+		<item>Im Umkreis von 15km</item>
+		<item>Im Umkreis von 25km</item>
+		<item>Im Umkreis von 50km</item>
+		<item>Im Umkreis von 100km</item>
+		<item>Im Umkreis von 500km</item>
+		<item>Im Umkreis von 1000km</item>
+	</string-array>
+	<string-array name="nearby_distance_values">
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>25</item>
+		<item>50</item>
+		<item>100</item>
+		<item>500</item>
+		<item>1000</item>
+	</string-array>
+	<string-array name="trend_sources">
+		<item>Weltweite Trends</item>
+		<item>Tägliche Trends</item>
+		<item>Wöchentliche Trends</item>
+		<item>Lokale Trends</item>
+	</string-array>
+
+	<string name="local_trend_with_place">Lokal - {place}</string>
+	<string name="login">Anmelden</string>
+	<string name="logout">Abmelden</string>
+	<string name="imgur_note">Bilder werden derzeit mit dem selben Benutzerkonto hochgeladen und folgen den selben Zugriffseinstellungen</string>
+	<string name="view_conversation_str">Unterhaltung umschalten</string>
+	<string name="photo_service_title">Upload-Dienst</string>
+	<string name="confirm_send_setting_title">Senden-Eingabeaufforderung</string>
+	<string name="confirm_send_setting_desc">Zeigt eine Eingabeaufforderung an, bevor ein Tweet gesendet wird.</string>
+	<string name="confirm_send_prompt">Diesen Tweet als @{account} senden?</string>
+	<string name="composer_str">Verfasser</string>
+	<string name="composer_desc_str">Aktiviere Entwürfe, hänge standardmäßig Standorte an, und weitere Verfasser-Optionen.</string>
+	<string name="users_and_tweets">Benutzer und Tweets</string>
+	<string name="swipe_to_delete_items">Wische Elemente aus dem Bidlschirm, um diese zu löschen.</string>
+
+	<string-array name="muting_types">
+		<item>Stichwort</item>
+		<item>Benutzer</item>
+		<item>App</item>
+	</string-array>
+
+	<string name="confirm_block_str">Soll dieser Benutzer blockiert werden?</string>
+	<string name="confirm_report_str">Soll dieser Benutzer gemeldet werden?</string>
+	<string name="reporting_str">Dieser Benutzer wird gemeldet...</string>
+	<string name="blocking_str">Dieser Benutzer wird blockiert...</string>
+	<string name="success_blocked_str">Benutzer wurde erfolgreich blockiert!</string>
+	<string name="reported_str">Benutzer wurde erfolgreich gemeldet!</string>
+	<string name="failed_block_str">Etwas ist während des Blockierens dieses Benuters schiefgelaufen!</string>
+	<string name="failed_report_str">Etwas ist während des Meldens dieses Benutzers schiefgelaufen!</string>
+	<string name="clear_str">Löschen</string>
+	<string name="backup_str">Sichern</string>
+	<string name="restore_str">Wiederherstellen</string>
+	<string name="backed_up_muting">Die Stummschaltungsfilter wurden erfolgreich für dieses Benutzerkonto gesichert!</string>
+	<string name="restored_muting">Die Stummschaltungsfilter wurden erfolgreich für dieses Benutzerkonto wiederhergestellt!</string>
+	<string name="no_muting_backup">Es wurden keine Stummschaltungsfilter-Sicherungsdateien für dieses Benutzerkonto gefunden!</string>
+	<string name="loading_str">Wird geladen...</string>
+	<string name="enable_ssl_str">SSL aktivieren</string>
+	<string name="disable_ssl_str">SSL deaktivieren</string>
+	<string name="enable_ssl_confirm_str">Soll SSL aktiviert werden? Dadurch kann Boid langsamer werden, aber es ist nützlich, falls du dich in einem öffentlichen Netzwerk, oder in einem Land befindest, in dem du ohne SSL kein Twitter verwenden kannst.</string>
+	<string name="my_lists_str">Meine Listen</string>
+	<string name="add_to_list_str">Zu Liste hinzufügen</string>
+	<string name="deleting_list_str">Liste wird gelöscht...</string>
+	<string name="unsubscribing_list_str">Listen-Abonnement wird beendet...</string>
+	<string name="deleted_list_str">Liste wurde erfolgreich gelöscht!</string>
+	<string name="unsubscribed_list_str">Listen-Abonnement wurde beendet!</string>
+	<string name="unsubscribe_str">Abo beenden</string>
+	<string name="adding_user_list">Benutzer wird zur Liste hinzugefügt...</string>
+	<string name="added_user_list">Benutzer wurde zur Liste hinzugefügt!</string>
+	<string name="delete_list_prompt">Soll deine Liste \"{listname}\" gelöscht werden?</string>
+	<string name="unsubscribe_list_prompt">Soll dein Abonnement der Liste \"{listname}\" beendet werden?</string>
+	<string name="follow_boidapp_prompt">Möchtest du @boidapp mit @{account} folgen?</string>
+	<string name="failed_check_following_boidapp">Überprüfung, ob du @boidapp mit @{account} folgst, fehlgeschlagen!</string>
+	<string name="failed_follow_boidapp">Folgen von @boidapp fehlgeschlagen. Du kannst es später noch einmal manuell versuchen.</string>
+	<string name="about_nodester">Nodester</string>
+	<string name="about_nodester_summary">Push-Benachrichtigungen wurden dank Nodester möglich gemacht. Kostenloses
+		node.js-Hosting! Schau mal vorbei!
+	</string>
+	<string name="font_size">Schriftgröße</string>
+	<string name="font_size_desc">Ändert die in Tweets verwendete Schriftgröße</string>
+	<string name="boid_is_awesome">Boid ist awesome!</string>
+	<string name="unblock_str">Blockierung aufheben</string>
+	<string name="failed_unblock_str">Aufheben der Blockierung von @{user} fehlgeschlagen!</string>
+	<string name="failed_follow_str">Folgen von @{user} fehlgeschlagen!</string>
+	<string name="failed_unfollow_str">Entfolgen von @{user} fehlgeschlagen!</string>
+	<string name="follow_str">Folgen</string>
+	<string name="follow_back_str">Zurückfolgen</string>
+	<string name="unfollow_str">Entfolgen</string>
+	<string name="follows_you_unfollow_str">Folgt dir. Entfolgen?</string>
+	<string name="request_sent_str">Anfrage versendet</string>
+	<string name="tweets_per_day">Tweets pro Tag</string>
+	<string name="one_tweet_selected">1 Tweet ausgewählt</string>
+	<string name="x_tweets_Selected">{X} Tweets ausgewählt</string>
+	<string name="one_user_selected">1 Benutzer ausgewählt</string>
+	<string name="x_users_selected">{X} Benutzer ausgewählt</string>
+	<string name="one_convo_selected">1 Unterhaltung ausgewählt</string>
+	<string name="x_convos_selected">{X} Unterhaltungen ausgewählt</string>
+	<string name="one_msg_selected">1 Nachricht ausgewählt</string>
+	<string name="x_msg_selected">{X} Nachrichten ausgewählt</string>
+	<string name="donate_str">Spenden</string>
+	<string name="donations_appreciated">Deine Spenden sind bei den Jugendlichen von Team Boid herzlich willkommen!</string>
+	<string name="syncing">Boid wird synchronisiert</string>
+
+	<string-array name="sync_types">
+		<item>Folgt</item>
+		<item>Folgende</item>
+		<item>Gegenseitig</item>
+	</string-array>
+	<string-array name="sync_types_values">
+		<item>following</item>
+		<item>followers</item>
+		<item>mutual</item>
+	</string-array>
+
+	<string name="contact_sync">Kontakt-Synchronisation</string>
+	<string name="this_is_you">Das bist du</string>
+	<string name="failed_check_following">Überprüfung, ob du @{user} folgst, fehlgeschlagen!</string>
+	<string name="failed_delete_dm">Löschen einer Nachricht aus deiner Unterhaltung mit @{user} fehlgeschlagen!</string>
+	<string name="night_mode">Nachtmodus</string>
+	<string name="night_mode_desc">Ändert die Themen, oder deaktiviert die Benachrichtigungen automatisch bei Einbruch der Nacht.</string>
+	<string name="start_time_str">Startzeit</string>
+	<string name="end_time_str">Endzeit</string>
+	<string name="night_mode_time_desc">Der Zeitpunkt, an dem deiner Meinung nach die Nacht beginnt.</string>
+	<string name="night_mode_endtime_desc">Der Zeitpunkt, an dem deiner Meinung nach die Nacht endet und der Tag beginnt.</string>
+	<string name="night_mode_theme_desc">Das Thema, zu dem Boid bei Einbruch der Nacht wechseln wird. Standard ist \"Pures Schwarz\".</string>
+	<string name="night_mode_switches_to">Nachtmodus wechselt bei Einbruch der Nacht zum \"{theme}\"-Thema.</string>
+	<string name="night_mode_enabled_at">Nachtmodus beginnt um {time}.</string>
+	<string name="night_mode_disabled_at">Nachtmodus endet um {time}.</string>
+	<string name="pause_notifications">Benachrichtigungen deaktivieren</string>
+	<string name="pause_notifications_desc">Du wirst bei aktivem Nachtmodus keine Benachtichtigungen erhalten, wenn diese Funktion aktiviert ist.</string>
+	<string name="columns_str">Spalten</string>
+	<string name="manage_columns">Spalten verwalten</string>
+	<string name="mentioned_by">Du wurdest von @{user} erwähnt</string>
+	<string name="messaged_by">Neue Nachricht von @{user}</string>
+	<string name="boid_browser">Boid-Browser</string>
+	<string name="contactsync_what">Was soll synchronisiert werden</string>
+	<string name="contact_sync_on">Kontakt-Synchronisation ist aktiviert</string>
+	<string name="contact_sync_off">Kontakt-Synchronisation ist deaktiviert. Bitte beachte: Kontakt-Synchronisation ist experimentell</string>
+	<string name="no_location_str">Kein Standort</string>
+	<string name="please_wait">Bitte warte...</string>
+	<string name="no_column_backup">Es wurden keine Spalten-Sicherungsdateien für dieses Benutzerkonto gefunden!</string>
+	<string name="reset_str">Zurücksetzen</string>
+	<string name="backed_up_columns">Deine Spalten wurden erfolgreich für dieses Benutzerkonto gesichert!</string>
+	<string name="restored_columns">Deine Spalten wurden erfolgreich für dieses Benutzerkonto wiederhergestellt!</string>
+	<string name="screen_name_str">Banutzername</string>
+	<string name="please_readd_accounts">Bitte füge deine Benutzerkonten erneut hinzu!</string>
+	<string name="not_logged_in">Du bist nicht angemeldet</string>
+	<string name="logged_in_as">Du bist als {user} angemeldet</string>
+	<string name="service_needs_config">{service} (benötigt eine Anmeldung)</string>
+	<string name="login_to_service">In {service} anmelden</string>
+	<string name="email">E-Mail-Adresse</string>
+	<string name="password">Passwort</string>
+	<string name="autocomplete">Autom. Benutzernamen-Vervollständigung</string>
+	<string name="done_str">Fertig</string>
+	<string name="name_str">Name</string>
+	<string name="failed_get_accountinfo">Erhalten deiner aktuellsten Benutzerkonto-Informationen fehlgeschlagen. Die zuletzt bekannten Informationen werden verwendet.</string>
+	<string name="camera_str">Kamera</string>
+	<string name="gallery_str">Galerie</string>
+	<string name="bio_str">Über mich</string>
+	<string name="no_cropapp_str">Es wurden keine Apps für das Zuschneiden deines Bildes gefunden!</string>
+	<string name="verified_str">Bestätigt</string>
+	<string name="mute_timeline_str">Timeline stummschalten</string>
+	<string name="mute_mentions_str">Erwähnungen stummschalten</string>
+	<string name="mute_search_str">Suche stummschalten</string>
+	<string name="dots">...</string>
+	<string name="x_new_mentions">{X} neue Erwähnungen!</string>
+	<string name="x_new_messages">{X} neue Nachrichten!</string>
+
+	<string-array name="notifications_period_name">
+		<item>5 Minuten</item>
+		<item>15 Minuten</item>
+		<item>Halbe Stunde</item>
+		<item>1 Stunde</item>
+		<item>2 Stunden</item>
+		<item>5 Stunden</item>
+		<item>Halbtags</item>
+	</string-array>
+	<string-array name="notifications_period_values">
+		<item>5</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>360</item>
+		<item>720</item>
+	</string-array>
+	<string-array name="nightmode_starttimes">
+		<item>13 Uhr</item>
+		<item>14 Uhr</item>
+		<item>15 Uhr</item>
+		<item>16 Uhr</item>
+		<item>17 Uhr</item>
+		<item>18 Uhr</item>
+		<item>19 Uhr</item>
+		<item>20 Uhr</item>
+		<item>21 Uhr</item>
+		<item>22 Uhr</item>
+		<item>23 Uhr</item>
+		<item>24 Uhr</item>
+	</string-array>
+	<string-array name="nightmode_endtimes">
+		<item>01 Uhr</item>
+		<item>02 Uhr</item>
+		<item>03 Uhr</item>
+		<item>04 Uhr</item>
+		<item>05 Uhr</item>
+		<item>06 Uhr</item>
+		<item>07 Uhr</item>
+		<item>08 Uhr</item>
+		<item>09 Uhr</item>
+		<item>10 Uhr</item>
+		<item>11 Uhr</item>
+		<item>12 Uhr</item>
+	</string-array>
+	<string-array name="nightmode_startvalues">
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+	</string-array>
+	<string-array name="nightmode_endvalues">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+
+	<string name="notifications">Benachrichtigungen</string>
+	<string name="notifications_global">Schlatet Benachrichtigungen gobal an/aus</string>
+	<string name="notifications_enable">Aktiviert Benachrichtigungen für dieses Benutzerkonto</string>
+	<string name="notification_period">Benachrichtigungsintervall</string>
+	<string name="notification_every">Benachrichtigungen aktualisieren sich alle {x} Minuten</string>
+	<string name="welcome_str">Willkommen bei Boid</string>
+	<string name="danger_zone">Gefahrenbereich!</string>
+	<string name="sign_in_failure">Wir konnten dich nicht anmelden. Möchtest du es nochmal versuchen?</string>
+
+	<string name="advanced_title">Erweiterte Einstellungen</string>
+	<string name="advanced_summary">Zeige erweiterte Einstellungen</string>
+	
+	<string name="delete_media">Zwischengespeicherte Medien löschen</string>
+	<string name="delete_media_desc">Bilder, wie etwa Profilbilder, etc.</string>
+	
+	<string name="link_action">Link-Aktion</string>
+	<string-array name="link_action_human">
+	    <item>In Browser öffnen</item>
+	    <item>Use \"Jetzt mit Readability lesen\"</item>
+	</string-array>
+	<string-array name="link_action_robot">
+	    <item>browser</item>
+	    <item>readability</item>
+	</string-array>
+	<string name="full">Vollständig</string>
+	<string name="load_more">Mehr laden</string>
+	
+</resources>
